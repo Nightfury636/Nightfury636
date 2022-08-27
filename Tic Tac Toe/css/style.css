@@ -89,3 +89,13 @@ a {
     font-size: 35px;
     margin-left: 10px;
 }
+
+.github {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+
+}
+
+footer {
+    padding-top: 15%;
+}
