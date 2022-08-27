@@ -8,6 +8,7 @@ var stat = {
     'o': 0,
     'd': 0
 }
+
 var winIndex = [
     [1,2,3],
     [4,5,6],
