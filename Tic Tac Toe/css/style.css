@@ -1,8 +1,11 @@
 * {margin: 0; padding: 0;}
+body {
+background-image: url("../pics/fon.jpeg");
+}
 
 .content {
     display: flex;
-    margin: 100px 50px 50px 50px;
+    margin: 250px 50px 50px 50px;
     font-family: sans-serif;
 }
 
@@ -32,7 +35,7 @@
 }
 
 .currentPlayer {
-    width: 140px;
+    width: 150px;
     font-size: 18px;
     display: flex;
     align-items: center;
@@ -52,4 +55,8 @@
     border: 1px solid rgb(0, 0, 0);
     padding: 5px;
     text-align: center;
+}
+
+.text {
+    color: rgba(0, 0, 0, 0.895);
 }
