@@ -1,6 +1,27 @@
 * {margin: 0; padding: 0;}
 body {
-background-image: url("../pics/fon.jpeg");
+    background-image: url("../pics/fon.jpeg");
+
+}
+
+.nameGame {
+    font-family: 'Alfa Slab One', cursive;
+    padding-left: 40%;
+    font-size: 60px;
+    color: rgb(230, 0, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+.nameGame:hover {
+    filter: grayscale(0);
+    transform: 0.3s;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+        0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01),
+        0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+
 }
 
 .content {
@@ -35,7 +56,7 @@ background-image: url("../pics/fon.jpeg");
 }
 
 .currentPlayer {
-    width: 150px;
+    width: 200px;
     font-size: 18px;
     display: flex;
     align-items: center;
@@ -59,4 +80,12 @@ background-image: url("../pics/fon.jpeg");
 
 .text {
     color: rgba(0, 0, 0, 0.895);
+    font-family: 'Rubik Dirt', cursive;
+
+}
+
+.textX {
+    color: red;
+    font-size: 35px;
+    margin-left: 10px;
 }
